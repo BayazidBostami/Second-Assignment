@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Poppins&display=swap');
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+header {
+    justify-content: center;
+}
+
+
+
+
+.top-heading {
+    display: flex;
+    justify-content: center;
+    width: 1300px;
+    height: 646px;
+    margin-left: 2%;
+    left: 160px;
+    top: 50px;
+    background: #161616;
+    border-radius: 30px;
+}
+
+.heading {
+    position: absolute;
+    width: 531px;
+    height: 424px;
+    left: 236px;
+}
+
+.heading h1 {
+    color: white;
+    font-size: 70px;
+}
+
+.heading p {
+    color: white;
+    font-size: 16px;
+}
+
+.heading img {
+    position: absolute;
+    width: 430px;
+    height: 613px;
+    left: 520px;
+    top: 33px;
+}
+
+.watch-button {
+    padding: 10px 40px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.watch-button:hover {
+    background-color: greenyellow;
+}
+
+
+
+
+.blog-item {
+    display: flex;
+    justify-content: center;
+}
+
+.options li {
+    list-style: none;
+}
+
+.options li a {
+    text-decoration: none;
+    color: brown;
+    font-size: 20px;
+}
+
+.items {
+    width: 312px;
+    height: 300px;
+    margin-left: 0;
+    margin-top: 10%;
+    background-color: #161616;
+    border-radius: 10px;
+}
+
+.options {
+    position: relative;
+    padding-left: 40px;
+}
+
+#fast {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    background-color: red;
+    color: aliceblue;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+#snd {
+    position: absolute;
+    top: 120px;
+    right: 50px;
+    background-color: aliceblue;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+
+#trd {
+    position: absolute;
+    top: 210px;
+    right: 60px;
+    background-color: aliceblue;
+    padding: 10px 70px;
+    border-radius: 10px;
+}
+
+
+
+
+.Watch {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-row-gap: 10px;
+    padding-top: 10%;
+    padding-left: 40px;
+}
+
+.vs {
+    display: flex;
+}
+
+footer {
+    text-align: center;
+    background-color: #161616;
+    padding: 5rem;
+    color: white;
+    margin-top: 10rem;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
